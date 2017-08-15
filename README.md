@@ -30,6 +30,9 @@ Os mocks foram realizados utilizandos o Postman e o teste completo está dispon�
 
 <h2>Resposta 3</h2>
 
+Obs.: Eu tive um problema com meu plugin Egit e precisei colocar o código em https://github.com/gusmaovinicius/nstest2
+
+<code>
 public class StreamWork implements IVstream{
 	
 	private Stream<Character> stream;
@@ -123,3 +126,4 @@ public class StreamWork implements IVstream{
 	}
 
 }
+</code>
