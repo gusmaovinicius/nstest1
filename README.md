@@ -16,10 +16,14 @@ Para rodar o serviço execute os comandos:
 gradlew clean build
 java -jar build/libs/Campaign.jar --server.port=9000
 
+O serviço rodará no endereço http://localhost:9000/api/campaign
+
 3- Serviço PartnerFan
 
 gradlew clean build
 java -jar build/libs/PartnerFan.jar --server.port=9001
+
+O serviço rodará no endereço http://localhost:9001/api/partnerfan
 
 <h2>Mocks de Testes</h2>
 Os mocks foram realizados utilizandos o Postman e o teste completo está disponível em https://documenter.getpostman.com/view/2415521/nstest/6n61tZR
