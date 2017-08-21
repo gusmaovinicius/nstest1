@@ -7,6 +7,7 @@ Devido aos requisitos não funcionais descritos, fui encorajado a tentar realiza
 <h2>Como executar o projeto</h2>
 
 1- Banco de dados
+<br/>
 Você precisa ter um banco com o nome test no MongoDB.
 
 2- Serviço Campaign
@@ -14,6 +15,7 @@ Você precisa ter um banco com o nome test no MongoDB.
 Para rodar o serviço execute os comandos:
 
 gradlew clean build
+<br/>
 java -jar build/libs/Campaign.jar --server.port=9000
 
 O serviço rodará no endereço http://localhost:9000/api/campaign
@@ -21,12 +23,13 @@ O serviço rodará no endereço http://localhost:9000/api/campaign
 3- Serviço PartnerFan
 
 gradlew clean build
+<br/>
 java -jar build/libs/PartnerFan.jar --server.port=9001
 
 O serviço rodará no endereço http://localhost:9001/api/partnerfan
 
 <h2>Mocks de Testes</h2>
-Os mocks foram realizados utilizandos o Postman e o teste completo está disponível em https://documenter.getpostman.com/view/2415521/nstest/6n61tZR
+Os mocks foram realizados utilizando o Postman e o teste completo está disponível em https://documenter.getpostman.com/view/2415521/nstest/6n61tZR
 
 <h2>Resposta 3</h2>
 
